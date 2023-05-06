@@ -1,7 +1,7 @@
 package org.ujar.quarkus.build.logger;
 
-import javax.annotation.PostConstruct;
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.annotation.PostConstruct;
+import jakarta.enterprise.context.ApplicationScoped;
 
 import io.quarkus.runtime.Startup;
 import lombok.extern.slf4j.Slf4j;

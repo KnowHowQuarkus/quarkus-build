@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.ujar.quarkus</groupId>
-    <artifactId>ujar-quarkus-build</artifactId>
+    <artifactId>quarkus-build</artifactId>
     <version>23.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ujar-quarkus-build</name>
+    <name>quarkus-build</name>
     <description>Shared library for all Quarkus applications.</description>
     <licenses>
         <license>
@@ -33,7 +33,7 @@
 
     <parent>
         <groupId>org.ujar.quarkus</groupId>
-        <artifactId>ujar-quarkus-parent-pom</artifactId>
+        <artifactId>quarkus-parent-pom</artifactId>
         <version>23.0.0-SNAPSHOT</version>
         <relativePath/>
     </parent>
@@ -86,10 +86,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
