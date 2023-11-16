@@ -1,4 +1,4 @@
-package org.ujar.quarkus.build.filter;
+package dev.knowhowto.quarkus.build.filter;
 
 import static org.junit.jupiter.api.Assertions.assertNull;
 

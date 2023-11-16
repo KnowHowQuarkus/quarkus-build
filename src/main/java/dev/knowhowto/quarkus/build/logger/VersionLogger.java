@@ -1,4 +1,4 @@
-package org.ujar.quarkus.build.logger;
+package dev.knowhowto.quarkus.build.logger;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.ApplicationScoped;
