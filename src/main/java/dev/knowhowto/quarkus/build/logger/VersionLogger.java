@@ -18,6 +18,6 @@ public class VersionLogger {
   @PostConstruct
   void init() {
     log.info("{}Application Version: {} {}",
-        GREEN, System.getenv("BUILD_VERSION"), RESET);
+        GREEN, System.getenv("VCS_REFERENCE"), RESET);
   }
 }
