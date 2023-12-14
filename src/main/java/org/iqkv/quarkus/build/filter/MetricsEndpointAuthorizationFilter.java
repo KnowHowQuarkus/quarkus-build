@@ -1,4 +1,4 @@
-package dev.knowhowto.quarkus.build.filter;
+package org.iqkv.quarkus.build.filter;
 
 import io.quarkus.vertx.web.RouteFilter;
 import io.vertx.ext.web.RoutingContext;

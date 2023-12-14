@@ -1,4 +1,4 @@
-package dev.knowhowto.quarkus.build.logger;
+package org.iqkv.quarkus.build.logger;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
